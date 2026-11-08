@@ -37,3 +37,11 @@ This package deliberately publishes verified failure patterns from our own opera
 - roadmap for identity, signatures, federation and receipts.
 
 Roadmap items are not claimed complete.
+
+## Later applications (Nov 2026)
+
+Two later repositories apply this ladder with mutation checks in their test runners:
+[group-bot-gateway](https://github.com/AAAA-Coalition/group-bot-gateway) and
+[infra-aware-agent](https://github.com/AAAA-Coalition/infra-aware-agent). Before publication one
+mutation reported "NOT caught": a witness compared the output with the very constant it guarded,
+so it moved with the defect. A witness that reads the value it guards is green by construction.
